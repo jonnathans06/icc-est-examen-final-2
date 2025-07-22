@@ -9,7 +9,7 @@ import models.Maquina;
 public class App {
     public static void main(String[] args) throws Exception {
         List<Maquina> maquinas = crearMaquinas();
-
+        MaquinaController mC = new MaquinaController();
     }
 
     static List<Maquina> crearMaquinas() {
